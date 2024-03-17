@@ -23,7 +23,7 @@ env:
   ARM_SUBSCRIPTION_ID: "${{ secrets.ARM_SUBSCRIPTION_ID }}"
   ARM_TENANT_ID: "${{ secrets.ARM_TENANT_ID }}"
 #  TF_INPUT: false
-  TF_LOG: debug
+#  TF_LOG: debug
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
