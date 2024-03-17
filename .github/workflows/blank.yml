@@ -53,5 +53,5 @@ jobs:
         run: terraform init
 
       - name: Terraform Apply
-        id: init
+        id: apply
         run: terraform apply
