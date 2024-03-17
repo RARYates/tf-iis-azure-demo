@@ -10,6 +10,7 @@ terraform {
         storage_account_name = "rarytesttfstate"
         container_name = "tfstatedemo"
         key = "iis.tfstate"
+        use_oidc = true
     }
 }
 
