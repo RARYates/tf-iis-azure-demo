@@ -9,7 +9,7 @@ terraform {
         resource_group_name = "terraform_demo"
         storage_account_name = "rarytesttfstate"
         container_name = "tfstatedemo"
-        key = "SuperSpecialName.tfstatetags"
+        key = "iis.tfstate"
     }
 }
 
